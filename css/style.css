@@ -286,12 +286,37 @@ footer {
 }
 
 /* *Productos */
-.productos-seccion-2 {
+.productos-frase-productos {
     display: flex;
-    flex-wrap: wrap;
+    margin: 5vh 10vh 5vh 10vh;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    background: rgb(255,235,136);
+    background: linear-gradient(90deg, rgba(255,235,136,1) 0%, rgba(255,255,255,1) 40%);
 }
 
+.productos-frase-productos h3 {
+    margin: 0;
+    padding: 10px;
+}
 
+.productos-contain-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productos-contain-imgs div {
+    margin: 5px;
+    text-align: center;
+}
+
+.productos-contain-imgs img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
 
 /* *Servicios */
 
@@ -370,7 +395,7 @@ form {
     margin: 2vh 0;
 }
 
-/* CSS */
+/* Buttons formulario */
 .button-reset, .button-enviar {
     align-items: center;
     appearance: none;
@@ -457,6 +482,15 @@ form {
         padding: 2vh 0;
     }
 
+    /* PRODUCTOS */
+    .productos-frase-productos {
+        margin: 5vh 7vh 5vh 7vh;
+    align-items: unset;
+    flex-direction: column;
+    background: rgb(255,235,136);
+    background: linear-gradient(180deg, rgba(255,235,136,1) 0%, rgba(255,255,255,1) 15%);
+    }
+
     /* CONTACTO */
     .contacto__seccion {
         flex-direction: column;
@@ -505,6 +539,18 @@ form {
         height: 100%;
         width: 90%;
         margin: 2vh 0;
+    }
+
+    /* PRODUCTOS */
+    .productos-frase-productos {
+        margin: 5vh 5vh 5vh 5vh;
+        background: rgb(255,235,136);
+        background: linear-gradient(180deg, rgba(255,235,136,1) 0%, rgba(255,255,255,1) 40%);
+        }
+
+    .productos-contain-imgs img {
+        width: 150px;
+        height: 150px;
     }
 
     /* Footer */
