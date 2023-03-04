@@ -319,25 +319,24 @@ footer {
 }
 
 /* *Servicios */
-
-.servicios-articulo-1 div {
-    width: 33%;
-    border: 2px solid #FBCA04;
-    padding: 5px;
-    margin-bottom: 10px;
+.card-group {
+    margin: 5vh;
 }
 
-.servicios-articulo-2 div p {
-    display: inline-block;
-    border: 2px solid #FBCA04;
-    padding: 5px;
-    margin-bottom: 10px;
-    width: 45%;
+.card {
+    margin: 0 3vh 0 3vh;
 }
 
-.servicios-articulo-2 div img {
-    width: 500px;
-    height: 500px;
+.card img:hover {
+    border: 1px solid #FBCA04;
+}
+
+.list-style-type-disc {
+    list-style-type: disc;
+}
+
+.list-style-type-circle {
+    list-style-type: circle;
 }
 
 /* *Sobre Nosotros */
@@ -551,6 +550,11 @@ form {
     .productos-contain-imgs img {
         width: 150px;
         height: 150px;
+    }
+
+    /* SERVICIO */
+    .card-group {
+        margin: 5vh 3vh;
     }
 
     /* Footer */
