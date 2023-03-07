@@ -388,19 +388,28 @@ form {
     border-radius: 10%;
 }
 
-.form-all {
-    display: flex;
-    justify-content: center;
-}
-
 .form-casillas {
+    display: flex;
     padding: 2vh;
     width: 100%;
+}
+
+.form-casillas div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-legend {
     padding: 1vh 0;
     text-align: center;
+}
+
+.form-textarea div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
 }
 
 #textarea-comentario {
