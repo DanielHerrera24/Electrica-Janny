@@ -292,8 +292,8 @@ footer {
     height: 100%;
     text-align: center;
     align-items: center;
-    background: rgb(255,235,136);
-    background: linear-gradient(90deg, rgba(255,235,136,1) 0%, rgba(255,255,255,1) 40%);
+    background: rgb(255, 235, 136);
+    background: linear-gradient(90deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 40%);
 }
 
 .productos-frase-productos h3 {
@@ -340,7 +340,26 @@ footer {
 }
 
 /* *Sobre Nosotros */
+.container {
+    margin: 4vh auto;
+}
 
+.sobrenosotros-imgs {
+    display: flex;
+    margin: 1vh 0;
+}
+
+.sobrenosotros-imgs img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sobrenosotros-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vh;
+}
 
 /* *Contacto */
 .contacto__seccion {
@@ -395,7 +414,8 @@ form {
 }
 
 /* Buttons formulario */
-.button-reset, .button-enviar {
+.button-reset,
+.button-enviar {
     align-items: center;
     appearance: none;
     background-image: radial-gradient(100% 100% at 100% 0, #EA1D24 0, #5468ff 100%);
@@ -443,7 +463,7 @@ form {
 
 /* TODO: Media Querys */
 /* TODO: TABLET */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 
     /* CSS Global */
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -484,10 +504,10 @@ form {
     /* PRODUCTOS */
     .productos-frase-productos {
         margin: 5vh 7vh 5vh 7vh;
-    align-items: unset;
-    flex-direction: column;
-    background: rgb(255,235,136);
-    background: linear-gradient(180deg, rgba(255,235,136,1) 0%, rgba(255,255,255,1) 15%);
+        align-items: unset;
+        flex-direction: column;
+        background: rgb(255, 235, 136);
+        background: linear-gradient(180deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 15%);
     }
 
     /* CONTACTO */
@@ -543,9 +563,9 @@ form {
     /* PRODUCTOS */
     .productos-frase-productos {
         margin: 5vh 5vh 5vh 5vh;
-        background: rgb(255,235,136);
-        background: linear-gradient(180deg, rgba(255,235,136,1) 0%, rgba(255,255,255,1) 40%);
-        }
+        background: rgb(255, 235, 136);
+        background: linear-gradient(180deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 40%);
+    }
 
     .productos-contain-imgs img {
         width: 150px;
