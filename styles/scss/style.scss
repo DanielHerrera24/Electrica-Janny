@@ -45,68 +45,60 @@ ul {
     padding: 1px;
     min-height: 10vh;
 
-    .navbar-brand {
-        a {
-            padding: 1rem o;
+    &-toggler {
+        background: #EA1D24;
+        border: none;
+        padding: 10px 6px;
+        outline: none;
+
+        span {
             display: block;
-            text-decoration: none;
+            width: 22px;
+            height: 2px;
+            border: 1px;
+            background: $color-white;
+        }
+
+        span+span {
+            margin-top: 4px;
+            width: 18px;
+            margin-left: 4px;
+        }
+
+        span+span+span {
+            width: 10px;
+            margin-left: 12px;
         }
     }
-}
 
-.navbar-toggler {
-    background: #EA1D24;
-    border: none;
-    padding: 10px 6px;
-    outline: none;
+    &-expand-lg {
+        padding-right: 2vh;
 
-    span {
-        display: block;
-        width: 22px;
-        height: 2px;
-        border: 1px;
-        background: $color-white;
-    }
+        .navbar-collapse {
+            flex-direction: row-reverse;
+        }
 
-    span+span {
-        margin-top: 4px;
-        width: 18px;
-        margin-left: 4px;
-    }
-
-    span+span+span {
-        width: 10px;
-        margin-left: 12px;
-    }
-}
-
-.navbar-expand-lg {
-    padding-right: 2vh;
-
-    .navbar-collapse {
-        flex-direction: row-reverse;
-    }
-
-    .navbar-nav {
-        .nav-link {
-            padding: 2rem 1.2rem;
-            font-size: 1.4rem;
-            position: relative;
-            color: $color-white;
-
-            &:hover {
-                border-top: 4px solid #FBCA04;
-                color: #EA1D24;
-            }
-
-            &:active {
-                border-top: 4px solid #EA1D24;
+        .navbar-nav {
+            .nav-link {
+                padding: 1rem 1.2rem;
+                font-size: 1.4rem;
+                position: relative;
                 color: $color-white;
-            }
-        }
 
-        button {
-            padding: 1.2rem 5rem;
+                &:hover {
+                    border-top: 4px solid #FBCA04;
+                    color: #EA1D24;
+                }
+
+                &:active {
+                    border-top: 4px solid #EA1D24;
+                    color: $color-white;
+                }
+            }
+
+            button {
+                padding: 1.2rem 5rem;
+            }
         }
     }
 }
@@ -156,8 +148,11 @@ ul {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 4vh;
-        font-size: 20px;
+        margin: 2vh 4vh;
+
+        h3 {
+            font-size: 1.4rem;
+        }
     }
 }
 

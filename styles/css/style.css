@@ -40,12 +40,6 @@ ul {
   padding: 1px;
   min-height: 10vh;
 }
-.navbar .navbar-brand a {
-  padding: 1rem o;
-  display: block;
-  text-decoration: none;
-}
-
 .navbar-toggler {
   background: #EA1D24;
   border: none;
@@ -68,7 +62,6 @@ ul {
   width: 10px;
   margin-left: 12px;
 }
-
 .navbar-expand-lg {
   padding-right: 2vh;
 }
@@ -76,7 +69,7 @@ ul {
   flex-direction: row-reverse;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 2rem 1.2rem;
+  padding: 1rem 1.2rem;
   font-size: 1.4rem;
   position: relative;
   color: #fff;
@@ -132,8 +125,10 @@ ul {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 4vh;
-  font-size: 20px;
+  margin: 2vh 4vh;
+}
+.footer-copyright h3 {
+  font-size: 1.4rem;
 }
 
 .facebook:hover {
