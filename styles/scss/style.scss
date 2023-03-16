@@ -40,6 +40,10 @@ ul {
 }
 
 /* NAVBAR */
+.active {
+    border-top: 4px solid #FBCA04;
+    color: $color-white;
+}
 .navbar {
     background-color: #034494;
     padding: 1px;
@@ -88,11 +92,6 @@ ul {
                 &:hover {
                     border-top: 4px solid #FBCA04;
                     color: #EA1D24;
-                }
-
-                &:active {
-                    border-top: 4px solid #EA1D24;
-                    color: $color-white;
                 }
             }
 
@@ -396,6 +395,22 @@ ul {
         width: 100%;
         object-fit: cover;
         box-shadow: $box-shadow-imgs;
+        
+    &:hover {
+        animation: shadow-drop-2-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    }
+}
+
+@keyframes shadow-drop-2-center {
+    0% {
+        transform: translateZ(0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: translateZ(50px);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
     }
 }
 
@@ -415,8 +430,8 @@ ul {
 
 .contacto-img {
     display: flex;
-    height: 100vh;
     width: 40%;
+    height: 100vh;
     margin: 10vh 0;
     box-shadow: $box-shadow-imgs;
 
@@ -430,6 +445,8 @@ ul {
 .form {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
     width: 40%;
     border-radius: 10%;
     box-shadow: $box-shadow-imgs;
@@ -531,6 +548,10 @@ ul {
         padding: .8rem 1.2rem;
     }
 
+    .active {
+        border-bottom: 4px solid #FBCA04;
+    }
+
     .logo-inicio {
         max-width: 10vh;
     }
@@ -601,9 +622,9 @@ ul {
         margin: 5vh 0;
     }
 
-    form {
-        width: 90%;
+    .form {
         margin-bottom: 5vh;
+        width: 90%;
     }
 }
 
