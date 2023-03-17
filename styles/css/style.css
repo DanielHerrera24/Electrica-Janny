@@ -225,6 +225,9 @@ ul {
   object-fit: cover;
   box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
 }
+.index-articulo-1 .index-div-img-1 img:hover {
+  animation: shadow-drop-2-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 
 /* Articulo 2 */
 .index-articulo-2 {

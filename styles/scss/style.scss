@@ -1,5 +1,6 @@
 $box-shadow-imgs: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
 $color-white: #fff;
+$animation-hover-boxshadow: shadow-drop-2-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
 /* *CSS Glogal */
 html,
@@ -251,6 +252,9 @@ ul {
             height: 100%;
             object-fit: cover;
             box-shadow: $box-shadow-imgs;
+            &:hover {
+                animation: $animation-hover-boxshadow;
+            }
         }
     }
 }
@@ -350,7 +354,7 @@ ul {
     margin: 0 3vh 0 3vh;
 
     &:hover {
-        animation: shadow-drop-2-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: $animation-hover-boxshadow;
     }
 
     &-group {
@@ -397,7 +401,7 @@ ul {
         box-shadow: $box-shadow-imgs;
         
     &:hover {
-        animation: shadow-drop-2-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: $animation-hover-boxshadow;
     }
     }
 }
