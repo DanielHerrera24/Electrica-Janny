@@ -1,0 +1,38 @@
+/* Grid */
+.grid-all {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "asideLeft main main asideRight"
+        "footer footer footer footer";
+    grid-template-columns: 1fr 45% 45% 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+/* grid items */
+.grid-header {
+    grid-area: header;
+}
+
+.grid-main {
+    grid-area: main;
+}
+
+.asideLeft {
+    grid-area: asideLeft;
+}
+
+.asideRight {
+    grid-area: asideRight;
+}
+
+.asides {
+    background: rgb(234, 29, 36);
+    background: linear-gradient(0deg, rgba(234, 29, 36, 1) 30%, rgba(3, 68, 148, 1) 70%);
+    z-index: 10;
+}
+
+.grid-footer {
+    grid-area: footer;
+}

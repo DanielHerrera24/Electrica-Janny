@@ -1,0 +1,49 @@
+/* Footer */
+.footer {
+    background: rgb(234, 29, 36);
+    background: linear-gradient(90deg, rgba(234, 29, 36, 1) 5%, rgba(3, 68, 148, 1) 10%, rgba(3, 68, 148, 1) 90%, rgba(234, 29, 36, 1) 95%);
+    color: $color-white;
+    display: flex;
+    justify-content: space-evenly;
+
+    &-icons {
+        display: flex;
+        align-items: center;
+
+        a {
+            margin: 0 5vh;
+            color: $color-white;
+
+            i.fa {
+                &:link {
+                    color: #fff;
+                }
+
+                &:visited {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+
+    &-copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 2vh 4vh;
+
+        h3 {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.facebook:hover {
+    color: #1771E6;
+}
+
+.whatsapp:hover {
+    color: #4AC959;
+}

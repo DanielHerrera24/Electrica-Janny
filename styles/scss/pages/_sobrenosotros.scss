@@ -1,0 +1,24 @@
+/* *Sobre Nosotros */
+.container {
+    margin: 4vh auto;
+}
+
+.sobrenosotros-imgs {
+    display: flex;
+    margin: 1vh 0;
+    z-index: 2;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        box-shadow: $box-shadow-imgs;
+    }
+}
+
+.sobrenosotros-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vh;
+    z-index: 1;
+}

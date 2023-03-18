@@ -1,0 +1,64 @@
+/* Contacto */
+.contacto__seccion {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacto-img {
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    margin: 10vh 0;
+    box-shadow: $box-shadow-imgs;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: $box-shadow-imgs;
+
+    &-casillas {
+        display: flex;
+        padding: 2vh;
+        width: 100%;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &-legend {
+        padding: 1vh 0;
+        text-align: center;
+    }
+
+    &-textarea div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2vh;
+    }
+}
+
+#textarea-comentario {
+    resize: none;
+}
+
+.form-div-span {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0;
+}
