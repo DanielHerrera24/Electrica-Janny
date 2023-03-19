@@ -32,7 +32,7 @@
         padding: .8rem 1.2rem;
     }
 
-    .active {
+    .nav-active {
         border-bottom: 4px solid #FBCA04;
     }
 
@@ -87,13 +87,6 @@
     }
 
     /* PRODUCTOS */
-    .productos-frase-productos {
-        margin: 5vh 7vh 5vh 7vh;
-        align-items: unset;
-        flex-direction: column;
-        background: rgb(255, 235, 136);
-        background: linear-gradient(180deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 15%);
-    }
 
     /* CONTACTO */
     .contacto__seccion {

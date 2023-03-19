@@ -1,37 +1,15 @@
 /* Productos */
-.productos-frase-productos {
-    display: flex;
-    margin: 5vh 10vh 5vh 10vh;
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    background: rgb(255, 235, 136);
-    background: linear-gradient(90deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 40%);
+.productos-seccion-2 {
+    margin: 4vh 0;
 
-    h3 {
-        margin: 0;
-        padding: 10px;
-    }
-}
-
-.productos-contain-imgs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    div {
-        display: flex;
-        flex-direction: column;
-        margin: 5px;
-        text-align: center;
-
-        img {
-            width: 200px;
-            height: 200px;
-            border: 2px solid rgba(0, 0, 0, 0.3);
-        }
-        h2 {
-            
+    .productos-card {
+        &-frase {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-evenly;
+            background: rgb(255, 235, 136);
+            background: linear-gradient(320deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 40%);
         }
     }
 }

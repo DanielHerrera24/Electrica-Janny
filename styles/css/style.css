@@ -115,7 +115,7 @@ body {
   padding: 1.2rem 5rem;
 }
 
-.active {
+.nav-active {
   border-top: 4px solid #FBCA04;
   color: #fff;
 }
@@ -309,36 +309,18 @@ body {
 }
 
 /* Productos */
-.productos-frase-productos {
+.productos-seccion-2 {
+  margin: 4vh 0;
+}
+.productos-seccion-2 .productos-card-frase {
   display: flex;
-  margin: 5vh 10vh 5vh 10vh;
-  height: 100%;
   text-align: center;
   align-items: center;
+  justify-content: space-evenly;
   background: rgb(255, 235, 136);
-  background: linear-gradient(90deg, rgb(255, 235, 136) 0%, rgb(255, 255, 255) 40%);
-}
-.productos-frase-productos h3 {
-  margin: 0;
-  padding: 10px;
+  background: linear-gradient(320deg, rgb(255, 235, 136) 0%, rgb(255, 255, 255) 40%);
 }
 
-.productos-contain-imgs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.productos-contain-imgs div {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  text-align: center;
-}
-.productos-contain-imgs div img {
-  width: 200px;
-  height: 200px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-}
 /* *Servicios */
 .card {
   margin: 0 3vh 0 3vh;
@@ -454,7 +436,7 @@ body {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.8rem 1.2rem;
   }
-  .active {
+  .nav-active {
     border-bottom: 4px solid #FBCA04;
   }
   .logo-inicio {
@@ -498,13 +480,6 @@ body {
     padding: 2vh;
   }
   /* PRODUCTOS */
-  .productos-frase-productos {
-    margin: 5vh 7vh 5vh 7vh;
-    align-items: unset;
-    flex-direction: column;
-    background: rgb(255, 235, 136);
-    background: linear-gradient(180deg, rgb(255, 235, 136) 0%, rgb(255, 255, 255) 15%);
-  }
   /* CONTACTO */
   .contacto__seccion {
     flex-direction: column;
