@@ -325,7 +325,6 @@ body {
 .card {
   margin: 0 3vh 0 3vh;
   z-index: -1;
-  box-shadow: rgba(56, 51, 51, 0.774) 0px 7px 29px 0px;
 }
 .card-group {
   margin: 5vh;
