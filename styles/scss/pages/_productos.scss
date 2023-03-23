@@ -13,3 +13,14 @@
         }
     }
 }
+
+/* MOVIL */
+@media screen and (max-width: 425px) {
+
+    /* PRODUCTOS */
+    .productos-frase-productos {
+        margin: 5vh 5vh 5vh 5vh;
+        background: rgb(255, 235, 136);
+        background: linear-gradient(180deg, rgba(255, 235, 136, 1) 0%, rgba(255, 255, 255, 1) 40%);
+    }
+}

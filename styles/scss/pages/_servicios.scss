@@ -19,3 +19,11 @@
 .list-style-type-circle {
     list-style-type: circle;
 }
+
+@media screen and (max-width: 425px) {
+
+    /* SERVICIO */
+    .card-group {
+        margin: 5vh 3vh;
+    }
+}

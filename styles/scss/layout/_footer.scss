@@ -27,11 +27,8 @@
     }
 
     &-copyright {
-        display: flex;
+        @include all-center;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
         margin: 2vh 4vh;
 
         h3 {
@@ -46,4 +43,25 @@
 
 .whatsapp:hover {
     color: #4AC959;
+}
+
+/* MOVIL */
+@media screen and (max-width: 425px) {
+
+    /* Footer */
+    footer {
+        background: rgb(234, 29, 36);
+        background: linear-gradient(90deg, rgba(234, 29, 36, 1) 5%, rgba(3, 68, 148, 1) 10%, rgba(3, 68, 148, 1) 90%, rgba(234, 29, 36, 1) 95%);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-icons a {
+        margin: 4vh 5vh 2vh 5vh;
+    }
+
+    .footer-copyright {
+        margin: 0;
+        padding: 5vh 4vh 5vh 4vh;
+    }
 }

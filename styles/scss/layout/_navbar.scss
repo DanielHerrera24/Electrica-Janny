@@ -65,3 +65,23 @@
     border-top: 4px solid #FBCA04;
     color: $color-white;
 }
+
+@media screen and (max-width: 991px) {
+
+    /* CSS Global */
+    .navbar {
+        min-height: 10vh;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: .8rem 1.2rem;
+    }
+
+    .nav-active {
+        border-bottom: 4px solid #FBCA04;
+    }
+
+    .logo-inicio {
+        max-width: 10vh;
+    }
+}

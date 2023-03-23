@@ -9,9 +9,13 @@
     z-index: 2;
 
     img {
-        width: 100%;
-        object-fit: cover;
+        @include img-cover-wh-100;
         box-shadow: $box-shadow-imgs;
+        
+        &:hover {
+            transform: scale(1.05, 1.05);
+            transition: all .5s;
+        }
     }
 }
 
