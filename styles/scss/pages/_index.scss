@@ -1,6 +1,6 @@
 /* Index */
 .seccion-principal {
-    background-image: url(../../../imgs/puerta-local.jpeg);
+    background-image: url(../../imgs/puerta-local.png);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@
 }
 
 /* MÓVIL */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
 
     /* index */
     .index-seccion-2 {

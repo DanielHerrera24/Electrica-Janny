@@ -20,10 +20,13 @@
     list-style-type: circle;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 
     /* SERVICIO */
-    .card-group {
-        margin: 5vh 3vh;
+    .card {
+        margin: 1vh 1vh;
+        &-group {
+            margin: 1vh 0;
+        }
     }
 }

@@ -1,7 +1,6 @@
 /* Footer */
 .footer {
-    background: rgb(234, 29, 36);
-    background: linear-gradient(90deg, rgba(234, 29, 36, 1) 5%, rgba(3, 68, 148, 1) 10%, rgba(3, 68, 148, 1) 90%, rgba(234, 29, 36, 1) 95%);
+    background-color: #034494;
     color: $color-white;
     display: flex;
     justify-content: space-evenly;
@@ -46,12 +45,10 @@
 }
 
 /* MOVIL */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
 
     /* Footer */
     footer {
-        background: rgb(234, 29, 36);
-        background: linear-gradient(90deg, rgba(234, 29, 36, 1) 5%, rgba(3, 68, 148, 1) 10%, rgba(3, 68, 148, 1) 90%, rgba(234, 29, 36, 1) 95%);
         flex-direction: column;
         align-items: center;
     }
