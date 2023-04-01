@@ -1,6 +1,6 @@
 <h1 align="center">Eléctrica Janny</h1>
 
-![imagen diseno logo](https://github.com/DanielHerrera24/Electrica-Janny/blob/main/imgs/puerta-local.jpeg)
+![imagen diseno logo](https://github.com/DanielHerrera24/Electrica-Janny/blob/main/imgs/puerta-local.png)
 
 <h2 align="center">Mi primer proyecto</h2>
 <p>Con orgullo les presento mi primer proyecto como Desarrollador Web</p>
